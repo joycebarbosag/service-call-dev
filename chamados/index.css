@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: beige;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.chamado {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: dashed;
+}
+
+.chamado button {
+    margin-top: 20px;
+    height: 50px;
+    align-items: center; 
+    padding: 5px;
+    display: block; 
+    margin: auto; 
+    margin-bottom: 10px;
+}
+
+.chamado button:hover {
+    color: white;
+    background-color: darkblue; 
+}
+
+.chamado textarea {
+    display: block;
+    margin: 20px auto;
+    width: 95%; 
+}

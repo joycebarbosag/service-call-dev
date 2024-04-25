@@ -1,0 +1,38 @@
+body{
+    background-color: beige;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+    margin-bottom: 10px;
+}
+
+.form button{
+    width: 150px; 
+    height: 40px;
+}
+
+.form button:hover {
+    color: white;
+    background-color: darkblue; 
+}
